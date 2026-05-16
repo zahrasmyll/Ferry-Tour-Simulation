@@ -54,7 +54,8 @@ public void loadOntoFerry(Vehicle v) throws InterruptedException {
         }
     }
 }
-🚀 How to Run the Project
+
+## 🚀 How to Run the Project
 Clone the repository:
 
 Bash
