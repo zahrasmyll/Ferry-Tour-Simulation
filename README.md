@@ -8,6 +8,7 @@ This project is a concurrent simulation of a ferry transportation system operati
 ---
 
 ## 📌 Project Overview
+
 The simulation involves a total of 30 distinct vehicle threads interacting with a shared single ferry instance:
 * 🚗 **12 Cars** (Weight: 1 unit)
 * 🚐 **10 Minibuses** (Weight: 2 units)
@@ -54,33 +55,3 @@ public void loadOntoFerry(Vehicle v) throws InterruptedException {
         }
     }
 }
-
----
-
-## 🚀 How to Run the Project
-Clone the repository:
-
-Bash
-git clone [https://github.com/YOUR_GITHUB_USERNAME/FerryTour-Simulation.git](https://github.com/YOUR_GITHUB_USERNAME/FerryTour-Simulation.git)
-Navigate to the source directory:
-
-Bash
-cd FerryTour-Simulation/src
-Compile the Java program:
-
-Bash
-javac com/mycompany/ferrytour/FerryTour.java
-Run the simulation:
-
-Bash
-java com.mycompany/ferrytour.FerryTour
-📊 Sample Execution Output
-Plaintext
-CAR-1 passed toll 1 on side 0
-CAR-1 is waiting in square on side 0
-CAR-1 loaded onto ferry on side 0
-Ferry departing from side 0 with 1 capacity used.
-Ferry arrived at side 1
-CAR-1 is returning to original side.
-...
-All vehicles have returned to their starting side.
